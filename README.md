@@ -16,3 +16,5 @@ cp .env.example .env
 php artisan key:generate && php artisan cache:clear
 
 curl -X PUT http://localhost:5984/laravel-database
+
+php artisan serve
