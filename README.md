@@ -6,6 +6,7 @@ git clone https://github.com/robsonvn/laravel-couchdb-boilerplate.git
 
 
 cd laravel-couchdb-boilerplate
+
 composer install
 
 chmod -R 775 storage && chmod -R 775 bootstrap/cache
